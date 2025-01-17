@@ -43,8 +43,7 @@ Attach the following permissions to your Lambda execution role:
 
   5. 5. Output Example
    - Email Report: 
-
-      ```
+```
       Subject: AWS Resource Report - 2025-01-17 10:00:00
 
 {
@@ -71,4 +70,4 @@ Attach the following permissions to your Lambda execution role:
         }
     ]
 }
-  ```
+```
