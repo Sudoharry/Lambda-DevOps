@@ -36,6 +36,9 @@
 4. Select the runtime (e.g., `Python 3.x`).
 5. Under Permissions, choose **Use an existing role** and select the role you created in Step 1 (`EBS-Snapshot-Creation-Role`).
 6. Click **Create function**.
+---
+![Create-a-function](https://github.com/user-attachments/assets/4641887f-2603-4394-82a8-6573d63d2c06)
+---
 
 ### Add Code to Lambda
 - Add your code for creating the EBS snapshots (similar to the script you developed).
@@ -44,8 +47,11 @@
 ### Test Lambda Function
 1. Click **Test** and configure a test event.
 2. Ensure the Lambda function works as expected by taking snapshots of your EC2 volumes.
+---
 
 ---
+---
+
 
 ## Step 3: Create an EventBridge Rule
 
