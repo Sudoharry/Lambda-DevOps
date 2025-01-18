@@ -1,4 +1,4 @@
-# Lambda function to handle Infrastructure Automation tasks, specifically focusing on the examples you mentioned: Auto Tagging Resources, Scheduled Cleanup, and Dynamic Scaling.
+# Lambda function to handle Infrastructure Automation tasks: Auto Tagging Resources, Scheduled Cleanup, and Dynamic Scaling.
 
 
 ## Overview
