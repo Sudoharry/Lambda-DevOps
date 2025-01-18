@@ -48,10 +48,9 @@
 1. Click **Test** and configure a test event.
 2. Ensure the Lambda function works as expected by taking snapshots of your EC2 volumes.
 ---
+![manual-test](https://github.com/user-attachments/assets/96e57642-dfef-407c-a719-cc6e43d3b81f)
 
 ---
----
-
 
 ## Step 3: Create an EventBridge Rule
 
@@ -72,7 +71,10 @@
      ```cron
      cron(0/3 * * * ? *)
      ```
+---
+![Create-a-EBSSnapshot-](https://github.com/user-attachments/assets/2c48e18b-86cb-458c-b8df-b1fb59a54429)
 
+---
 ### Select Target
 1. Under **Select Targets**, choose **Lambda function**.
 2. **Function**: Select the Lambda function you created earlier (`CreateEBSnapshot`).
@@ -98,6 +100,15 @@
 
 ### Verify Snapshots
 - In the EC2 console, navigate to **Snapshots** and confirm that snapshots are being created for your EC2 volumes.
+
+---
+![last-5-snapshot](https://github.com/user-attachments/assets/e18bc10f-da88-46a9-aac5-ecd32926496b)
+
+---
+
+### Check Email for verification
+---
+![email-recevied](https://github.com/user-attachments/assets/8ea7fdce-f9bb-408a-9206-3a1d530b7b29)
 
 ---
 
